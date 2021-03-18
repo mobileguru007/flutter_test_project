@@ -195,6 +195,20 @@ class _MyHomePageState extends State<MyHomePage> {
       conflictAlgorithm: ConflictAlgorithm.replace,
     );
     print('db insert success');
+    _showToast('Success', 'Successfully stored User information!');
+    clearFields();
+  }
+
+  void clearFields() {
+    _imeiController.text = "";
+    _fnController.text = "";
+    _lnController.text = "";
+    _pspController.text = "";
+    _emailController.text = "";
+    setState(() {
+      dob = DateTime(2000);
+      _image = null;
+    });
   }
 
   Future<bool> databaseExists(String path) =>
