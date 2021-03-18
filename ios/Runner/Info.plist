@@ -2,6 +2,24 @@
 <!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
 <plist version="1.0">
 <dict>
+    <key>NSPhotoLibraryUsageDescription</key>
+    <string>Allow access to photo library</string>
+
+    <key>NSCameraUsageDescription</key>
+    <string>Allow access to camera to capture photos</string>
+
+    <key>NSMicrophoneUsageDescription</key>
+    <string>Allow access to microphone</string>
+
+    <!-- for iOS 11 + -->
+    <key>NSLocationWhenInUseUsageDescription</key>
+    <string>Reason why app needs location</string>
+    <key>NSLocationAlwaysAndWhenInUseUsageDescription</key>
+    <string>Reason why app needs location</string>
+
+    <!-- additionally for iOS 9/10, if you need always permission -->
+    <key>NSLocationAlwaysUsageDescription</key>
+    <string>Reason why app needs location</string>
 	<key>CFBundleDevelopmentRegion</key>
 	<string>$(DEVELOPMENT_LANGUAGE)</string>
 	<key>CFBundleExecutable</key>
