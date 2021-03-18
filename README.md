@@ -2,15 +2,30 @@
 
 Flutter test for Tanveer UI Islam
 
-## Getting Started
+## Documentation
 
-This project is a starting point for a Flutter application.
+- Design
+    Customer Registration screen
+    ============================
+    [IMEI]		 ____________ [auto-populated by default. If not available, let user enter it.]
+    [First name] ____________
+    [Last name]  ____________
+    [DoB]        ____________ [Calendar, Date format = dd/MM/yyyy]
+    [Passport #] ____________ [Visible and mandatory ONLY when person is 18+]
+    [Email]      ____________
+    [Picture]    ____________ [Capture from Camera]
 
-A few resources to get you started if this is your first Flutter project:
-
-- [Lab: Write your first Flutter app](https://flutter.dev/docs/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://flutter.dev/docs/cookbook)
-
-For help getting started with Flutter, view our
-[online documentation](https://flutter.dev/docs), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+                        [Save]
+- Project Structure
+    I built MyApp class for main UI.
+    For storing user information, I made userModel.dart.
+- Flutter 3rd party plugins
+    [imei_plugin](https://pub.dev/packages/imei_plugin) to get device IMEI.
+    [image_picker](https://pub.dev/packages/image_picker) to capture/pick an image
+    [geolocator](https://pub.dev/packages/geolocator) to fetch device location.
+    [sqflite](https://pub.dev/packages/sqflite) to save/fetch user models to/from SQLite database.
+- Screenshots
+    ![Screenshot1](https://github.com/mobileguru007/flutter_test_project/blob/master/device-2021-03-18-135403.png) ![Screenshot2](https://github.com/mobileguru007/flutter_test_project/blob/master/device-2021-03-18-135432.png)
+    ![Screenshot3](https://github.com/mobileguru007/flutter_test_project/blob/master/device-2021-03-18-140247.png) ![Screenshot4](https://github.com/mobileguru007/flutter_test_project/blob/master/device-2021-03-18-135845.png)
+- Android APK
+  <a id="raw-url" href="https://github.com/mobileguru007/flutter_test_project/blob/master/app-release.apk">Download Apk</a>
