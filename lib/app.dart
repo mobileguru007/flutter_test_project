@@ -200,7 +200,6 @@ class _MyHomePageState extends State<MyHomePage> {
   }
 
   void clearFields() {
-    _imeiController.text = "";
     _fnController.text = "";
     _lnController.text = "";
     _pspController.text = "";
