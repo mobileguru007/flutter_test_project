@@ -15,7 +15,7 @@ Flutter test for Tanveer UI Islam
     [Email]      ____________<br>
     [Picture]    ____________ [Capture from Camera]<br>
 
-                        [Save]<br>
+                        [Save]
 - Project Structure
     I built MyApp class for main UI.
     For storing user information, I made userModel.dart.
